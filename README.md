@@ -1,4 +1,4 @@
-Enhanced version of Cross-modality Knowledge Reasoning model.<br><br>
+Enhanced version of Cross-modality Knowledge Reasoning model.<br>
 CKR-PLUS
 ====
 <br>
