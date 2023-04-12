@@ -1,0 +1,320 @@
+使用CLIP-ResNet-50x4-views作为视觉特征，调整参数，调整搜索方式
+9300val_seen_sr_0.531_val_unseen_sr_0.143_
+god_k=4:{   'length': 33.246960780374145,
+    'oracle success_rate': 0.33513206475433116,
+    'spl': 0.09849779578042368,
+    'success_rate': 0.15393354160749786} #
+all_zero k=4:evaluating on val_seen
+{   'length': 13.636461392653045,
+    'oracle success_rate': 0.6029515108924807,
+    'spl': 0.4817414950783139,
+    'success_rate': 0.5080815179198875}
+evaluating on val_unseen
+{   'length': 33.283564755946145,
+    'oracle success_rate': 0.341948310139165,
+    'spl': 0.09915733101464652,
+    'success_rate': 0.1550695825049702} #
+normal_k=4:{   'length': 13.451862810162483,
+    'oracle success_rate': 0.6050597329585383,
+    'spl': 0.4820335862581849,
+    'success_rate': 0.5101897399859452}
+evaluating on val_unseen
+{   'length': 33.47123832334631,
+    'oracle success_rate': 0.34052825901732464,
+    'spl': 0.09838600891926934,
+    'success_rate': 0.15364953138312978} #
+god_k=5:evaluating on val_seen
+{   'length': 13.475533760373004,
+    'oracle success_rate': 0.6043569922698524,
+    'spl': 0.48335515157629183,
+    'success_rate': 0.5137034434293746}
+evaluating on val_unseen
+{   'length': 33.14497549629179,
+    'oracle success_rate': 0.3357000852030673,
+    'spl': 0.09937915279894315,
+    'success_rate': 0.1661459812553252} #
+all_zero k=5:evaluating on val_seen
+{   'length': 13.69750694725351,
+    'oracle success_rate': 0.6022487702037947,
+    'spl': 0.4816146103681706,
+    'success_rate': 0.5073787772312017}
+evaluating on val_unseen
+{   'length': 33.20900754404778,
+    'oracle success_rate': 0.34251633058790115,
+    'spl': 0.09974048163501863,
+    'success_rate': 0.1621698381141721} #
+
+normal_k=6:evaluating on val_seen
+{   'length': 13.546233386737244,
+    'oracle success_rate': 0.60646521433591,
+    'spl': 0.48409628771635727,
+    'success_rate': 0.5115952213633169}
+evaluating on val_unseen
+{   'length': 32.822746589447426,
+    'oracle success_rate': 0.34052825901732464,
+    'spl': 0.09964454114844086,
+    'success_rate': 0.1647259301334848} #
+god_k=6:evaluating on val_seen
+{   'length': 13.51939881252817,
+    'oracle success_rate': 0.6043569922698524,
+    'spl': 0.48329691646412865,
+    'success_rate': 0.5130007027406887}
+evaluating on val_unseen
+{   'length': 33.234561538530485,
+    'oracle success_rate': 0.3357000852030673,
+    'spl': 0.09938416587233641,
+    'success_rate': 0.16557796080658904} #
+soft_room_label_god_k=6:evaluating on val_seen
+{   'length': 13.51939881252817,
+    'oracle success_rate': 0.6043569922698524,
+    'spl': 0.48329691646412865,
+    'success_rate': 0.5130007027406887}
+evaluating on val_unseen
+{   'length': 33.234561538530485,
+    'oracle success_rate': 0.3357000852030673,
+    'spl': 0.09938416587233641,
+    'success_rate': 0.16557796080658904} #
+all_zero_k=6:evaluating on val_seen
+{   'length': 13.637845296379878,
+    'oracle success_rate': 0.6022487702037947,
+    'spl': 0.4816146103681706,
+    'success_rate': 0.5073787772312017}
+evaluating on val_unseen
+{   'length': 33.2554680211335,
+    'oracle success_rate': 0.34251633058790115,
+    'spl': 0.09989989463441062,
+    'success_rate': 0.1621698381141721} #
+
+
+9800val_seen_sr_0.545_val_unseen_sr_0.139_
+god_k=6:evaluating on val_seen
+{   'length': 15.03295516616179,
+    'oracle success_rate': 0.6507378777231202,
+    'spl': 0.5142663471284477,
+    'success_rate': 0.5621925509486999}
+evaluating on val_unseen
+{   'length': 32.04484913533209,
+    'oracle success_rate': 0.3552967906844646,
+    'spl': 0.08463951275529262,
+    'success_rate': 0.12070434535643283} #
+
+
+8300val_seen_sr_0.565_val_unseen_sr_0.137_
+k=3:evaluating on val_seen
+{   'length': 15.816742824541482,
+    'oracle success_rate': 0.6584680252986648,
+    'spl': 0.49007186754264126,
+    'success_rate': 0.5249472944483485}
+evaluating on val_unseen
+{   'length': 37.408279800594045,
+    'oracle success_rate': 0.4257313263277478,
+    'spl': 0.09933419486830244,
+    'success_rate': 0.15819369497301902} #
+
+k=4:evaluating on val_seen
+{   'length': 15.61789006108048,
+    'oracle success_rate': 0.6640899508081518,
+    'spl': 0.48883905906848607,
+    'success_rate': 0.5228390723822909}
+evaluating on val_unseen
+{   'length': 34.76830728472246,
+    'oracle success_rate': 0.4274353876739563,
+    'spl': 0.10044386378396143,
+    'success_rate': 0.16245384833854018} #
+all_zero k=4:evaluating on val_seen
+{   'length': 16.142953557554097,
+    'oracle success_rate': 0.6676036542515812,
+    'spl': 0.4917821758967028,
+    'success_rate': 0.5291637385804638}
+evaluating on val_unseen
+{   'length': 37.69973724490878,
+    'oracle success_rate': 0.41635898892360124,
+    'spl': 0.09527064136370705,
+    'success_rate': 0.15961374609485943} #
+
+k=5:evaluating on val_seen
+{   'length': 15.137581382416059,
+    'oracle success_rate': 0.6612789880534083,
+    'spl': 0.4883849114553843,
+    'success_rate': 0.5207308503162333}
+evaluating on val_unseen
+{   'length': 34.281948587286344,
+    'oracle success_rate': 0.42828741834706047,
+    'spl': 0.10110819341679454,
+    'success_rate': 0.1610337972166998}  #
+god_k=6:evaluating on val_seen
+{   'length': 15.00990658302738,
+    'oracle success_rate': 0.6605762473647224,
+    'spl': 0.4882256428928474,
+    'success_rate': 0.5193253689388616}
+evaluating on val_unseen
+{   'length': 34.23581617846123,
+    'oracle success_rate': 0.42885543879579663,
+    'spl': 0.10107771886160775,
+    'success_rate': 0.15989775631922748} #
+k=10:evaluating on val_seen
+{   'length': 15.003570927253685,
+    'oracle success_rate': 0.6605762473647224,
+    'spl': 0.4882256428928474,
+    'success_rate': 0.5193253689388616}
+evaluating on val_unseen
+{   'length': 34.10289095750092,
+    'oracle success_rate': 0.42828741834706047,
+    'spl': 0.10102684175574106,
+    'success_rate': 0.15961374609485943} #
+
+修改room classify 损失训练：
+17100val_seen_sr_0.582_val_unseen_sr_0.131_
+god k=4:evaluating on val_seen
+{   'length': 13.882786908606308,
+    'oracle success_rate': 0.6479269149683766,
+    'spl': 0.5279501900846303,
+    'success_rate': 0.5713281799016163}
+evaluating on val_unseen
+{   'length': 26.25697584238541,
+    'oracle success_rate': 0.36523714853734734,
+    'spl': 0.1298957817961495,
+    'success_rate': 0.18290258449304175}###################
+
+god k=5:
+evaluating on val_seen
+{   'length': 13.869180333084094,
+    'oracle success_rate': 0.6479269149683766,
+    'spl': 0.5278477123978413,
+    'success_rate': 0.5706254392129304}
+evaluating on val_unseen
+{   'length': 26.219892411594028,
+    'oracle success_rate': 0.364101107639875,
+    'spl': 0.1297081252797257,
+    'success_rate': 0.18261857426867367}#########################
+normal k=5:
+evaluating on val_seen
+{   'length': 13.760063363885473,
+    'oracle success_rate': 0.6760365425158117,
+    'spl': 0.5418527045677066,
+    'success_rate': 0.5881939564300773}
+evaluating on val_unseen
+{   'length': 27.913457787206273,
+    'oracle success_rate': 0.3504686168702073,
+    'spl': 0.10590849979043274,
+    'success_rate': 0.15024140869071287}###############
+all zero k=5:
+evaluating on val_seen
+{   'length': 14.004632381948626,
+    'oracle success_rate': 0.668306394940267,
+    'spl': 0.5429846645022058,
+    'success_rate': 0.5952213633169361}
+evaluating on val_unseen
+{   'length': 30.38897952819829,
+    'oracle success_rate': 0.3606929849474581,
+    'spl': 0.1055223913026345,
+    'success_rate': 0.16500994035785288} ##############
+god_k=6:
+evaluating on val_seen
+{   'length': 13.874352381400914,
+    'oracle success_rate': 0.6479269149683766,
+    'spl': 0.5278477123978413,
+    'success_rate': 0.5706254392129304}
+evaluating on val_unseen
+{   'length': 26.335711035277274,
+    'oracle success_rate': 0.3643851178642431,
+    'spl': 0.12976169331755052,
+    'success_rate': 0.18318659471740983}##########################
+normal k=6:
+evaluating on val_seen
+{   'length': 13.757867185083441,
+    'oracle success_rate': 0.6760365425158117,
+    'spl': 0.5418527045677066,
+    'success_rate': 0.5881939564300773}
+evaluating on val_unseen
+{   'length': 27.94972599769599,
+    'oracle success_rate': 0.34933257597273504,
+    'spl': 0.10573842407322298,
+    'success_rate': 0.14910536779324055}###########
+all zero k=6:
+evaluating on val_seen
+{   'length': 13.956899973257288,
+    'oracle success_rate': 0.668306394940267,
+    'spl': 0.5429861905659804,
+    'success_rate': 0.5952213633169361}
+evaluating on val_unseen
+{   'length': 30.453708078184064,
+    'oracle success_rate': 0.36012496449872194,
+    'spl': 0.10562961531906473,
+    'success_rate': 0.16557796080658904}###########
+god k=7:
+evaluating on val_seen
+{   'length': 13.875288838886192,
+    'oracle success_rate': 0.6479269149683766,
+    'spl': 0.5278477123978413,
+    'success_rate': 0.5706254392129304}
+evaluating on val_unseen
+{   'length': 26.353735222791,
+    'oracle success_rate': 0.364101107639875,
+    'spl': 0.1297675765990282,
+    'success_rate': 0.18318659471740983}###############
+
+
+17700val_seen_sr_0.555_val_unseen_sr_0.128_
+god k=4:evaluating on val_seen
+{   'length': 12.462279419675493,
+    'oracle success_rate': 0.6423049894588897,
+    'spl': 0.5292332409334328,
+    'success_rate': 0.5664089950808152}
+evaluating on val_unseen
+{   'length': 26.545865016197382,
+    'oracle success_rate': 0.3717693836978131,
+    'spl': 0.1407756430615157,
+    'success_rate': 0.1988071570576541}############################
+god k=5:evaluating on val_seen
+{   'length': 12.4633380198605,
+    'oracle success_rate': 0.6423049894588897,
+    'spl': 0.5292332409334328,
+    'success_rate': 0.5664089950808152}
+evaluating on val_unseen
+{   'length': 26.415753582663523,
+    'oracle success_rate': 0.3694973019028685,
+    'spl': 0.14018805839492646,
+    'success_rate': 0.19937517750639022}##############################
+god k=6:evaluating on val_seen
+{   'length': 12.465238452519587,
+    'oracle success_rate': 0.6423049894588897,
+    'spl': 0.5292332409334328,
+    'success_rate': 0.5664089950808152}
+evaluating on val_unseen
+{   'length': 26.577884993972173,
+    'oracle success_rate': 0.37006532235160466,
+    'spl': 0.1402363693286057,
+    'success_rate': 0.1996591877307583}#################################
+normal k=6:evaluating on val_seen
+{   'length': 12.987310525864492,
+    'oracle success_rate': 0.651440618411806,
+    'spl': 0.5250559886389804,
+    'success_rate': 0.573436401967674}
+evaluating on val_unseen
+{   'length': 27.570793731027525,
+    'oracle success_rate': 0.3555808009088327,
+    'spl': 0.11067212588440183,
+    'success_rate': 0.16841806305026982}################
+all zero k=6:evaluating on val_seen
+{   'length': 13.185375471450419,
+    'oracle success_rate': 0.6437104708362614,
+    'spl': 0.5252762835600078,
+    'success_rate': 0.5748418833450457}
+evaluating on val_unseen
+{   'length': 29.738934638450097,
+    'oracle success_rate': 0.35984095427435386,
+    'spl': 0.11038652242369315,
+    'success_rate': 0.18318659471740983}#######################
+god k=7:evaluating on val_seen
+{   'length': 12.449133948603524,
+    'oracle success_rate': 0.6423049894588897,
+    'spl': 0.5292332409334328,
+    'success_rate': 0.5664089950808152}
+evaluating on val_unseen
+{   'length': 26.574962352335408,
+    'oracle success_rate': 0.37006532235160466,
+    'spl': 0.14023426069032446,
+    'success_rate': 0.1996591877307583}#################################
+
+

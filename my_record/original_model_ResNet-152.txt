@@ -1,0 +1,36 @@
+原始模型评估结果
+follower_pm_sample2step_imagenet_mean_pooled_1heads_train_iter_9300val_seen_sr_0.547_val_unseen_sr_0.138_
+# k=10:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.58547315089459,
+#     'oracle success_rate': 0.32263561488213577,
+#     'spl': 0.10815982719276909,
+#     'success_rate': 0.1848906560636183}
+follower_pm_sample2step_imagenet_mean_pooled_1heads_train_iter_16300val_seen_sr_0.555_val_unseen_sr_0.136_
+# k=10:evaluating on val_seen
+# {   'length': 15.568272094396757,
+#     'oracle success_rate': 0.6725228390723823,
+#     'spl': 0.5073131464547582,
+#     'success_rate': 0.5643007730147576}
+# evaluating on val_unseen
+# {   'length': 33.78893744592748,
+#     'oracle success_rate': 0.3606929849474581,
+#     'spl': 0.08944787284863699,
+#     'success_rate': 0.14677364385117865}
+follower_pm_sample2step_imagenet_mean_pooled_1heads_train_iter_17200val_seen_sr_0.562_val_unseen_sr_0.130_
+# {   'length': 17.731536745453376,
+#     'oracle success_rate': 0.6823612087139845,
+#     'spl': 0.5258092041666165,
+#     'success_rate': 0.5811665495432186}
+# evaluating on val_unseen
+# {   'length': 40.226453931072655,
+#     'oracle success_rate': 0.3518258616483047,
+#     'spl': 0.07910881811027141,
+#     'success_rate': 0.14944902016472593}
+
+
+

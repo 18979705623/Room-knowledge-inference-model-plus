@@ -1,0 +1,270 @@
+使用CLIP-ResNet-101-views作为视觉特征,调整搜索方式
+# 15700val_seen_sr_0.544_val_unseen_sr_0.137_
+# k=1:evaluating on val_seen
+# {   'length': 10.680229034092832,
+#     'oracle success_rate': 0.6163035839775123,
+#     'spl': 0.5235872948267086,
+#     'success_rate': 0.5516514406184118}
+# evaluating on val_unseen
+# {   'length': 9.470326883124294,
+#     'oracle success_rate': 0.202215279750071,
+#     'spl': 0.09469691292389537,
+#     'success_rate': 0.10962794660607782}
+
+# K=2:evaluating on val_seen
+# {   'length': 18.722393598234948,
+#     'oracle success_rate': 0.6816584680252986,
+#     'spl': 0.5267461087483511,
+#     'success_rate': 0.5825720309205903}
+# evaluating on val_unseen
+# {   'length': 42.46407563587174,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08732823991949644,
+#     'success_rate': 0.14512922465208747}
+# K=3：evaluating on val_seen
+# {   'length': 18.914086658991657,
+#     'oracle success_rate': 0.6795502459592411,
+#     'spl': 0.5283082912342346,
+#     'success_rate': 0.5832747716092762}
+# evaluating on val_unseen
+# {   'length': 43.273700627059696,
+#     'oracle success_rate': 0.35984095427435386,
+#     'spl': 0.09035423427302912,
+#     'success_rate': 0.14910536779324055}
+# K=4：evaluating on val_unseen
+# {   'length': 40.966688745176846,
+#     'oracle success_rate': 0.35416074978699236,
+#     'spl': 0.08979063935127253,
+#     'success_rate': 0.14768531667140017}
+
+# K=5：evaluating on val_unseen
+# {   'length': 40.403783443698764,
+#     'oracle success_rate': 0.3533087191138881,
+#     'spl': 0.09025351565251222,
+#     'success_rate': 0.1522294802612894
+# k=6{   'length': 40.2846205100152,
+#     'oracle success_rate': 0.35245668844078387,
+#     'spl': 0.08917534173621344,
+#     'success_rate': 0.1411530815109344}
+# k=7:{   'length': 40.20091276953401,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# k=8:similarity torch.Size([480, 1])
+# {   'length': 40.21695107508227,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# k=9:{   'length': 40.20454630080482,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# k=15:{   'length': 40.226453931072655,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# k=20:{   'length': 40.226453931072655,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# 17100val_seen_sr_0.499_val_unseen_sr_0.140_
+# k=1:{   'length': 9.307106694192342,
+#     'oracle success_rate': 0.2110195967054814,
+#     'spl': 0.09529454396600072,
+#     'success_rate': 0.10707185458676512}
+# k=3:{   'length': 31.205790450581066,
+#     'oracle success_rate': 0.3589889236012496,
+#     'spl': 0.10905424657318213,
+#     'success_rate': 0.16160181766543597}
+# k=4:{   'length': 29.688996178737654,
+#     'oracle success_rate': 0.3584209031525135,
+#     'spl': 0.11158075362235276,
+#     'success_rate': 0.17665435955694406}
+# k=5:{   'length': 29.853404465268884,
+#     'oracle success_rate': 0.35870491337688154,
+#     'spl': 0.1114835217479496,
+#     'success_rate': 0.17523430843510365}
+# k=6:{   'length': 40.2846205100152,
+#     'oracle success_rate': 0.35245668844078387,
+#     'spl': 0.08917534173621344,
+#     'success_rate': 0.1411530815109344}
+# k=9:evaluating on val_seen
+# {   'length': 17.70655740724802,
+#     'oracle success_rate': 0.6823612087139845,
+#     'spl': 0.5258092041666165,
+#     'success_rate': 0.5811665495432186}
+# evaluating on val_unseen
+# {   'length': 40.20454630080482,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# k=15:evaluating on val_seen
+# {   'length': 17.731536745453376,
+#     'oracle success_rate': 0.6823612087139845,
+#     'spl': 0.5258092041666165,
+#     'success_rate': 0.5811665495432186}
+# evaluating on val_unseen
+# {   'length': 40.226453931072655,
+#     'oracle success_rate': 0.3518886679920477,
+#     'spl': 0.08910881811027141,
+#     'success_rate': 0.13944902016472593}
+# 16500val_seen_sr_0.515_val_unseen_sr_0.147_
+# k=3:evaluating on val_seen
+# {   'length': 16.68786079160301,
+#     'oracle success_rate': 0.668306394940267,
+#     'spl': 0.5086200179744501,
+#     'success_rate': 0.5643007730147576}
+# evaluating on val_unseen
+# {   'length': 36.17194567079429,
+#     'oracle success_rate': 0.36750923033229194,
+#     'spl': 0.10677710651382376,
+#     'success_rate': 0.16387389946038058}
+# k=4:evaluating on val_seen
+# {   'length': 16.089033867593276,
+#     'oracle success_rate': 0.6725228390723823,
+#     'spl': 0.5069158193537264,
+#     'success_rate': 0.5628952916373858}
+# evaluating on val_unseen
+# {   'length': 34.09631073856721,
+#     'oracle success_rate': 0.3658051689860835,
+#     'spl': 0.10732646826682439,
+#     'success_rate': 0.16756603237716558}
+# k=5:evaluating on val_seen
+# {   'length': 15.782808279150782,
+#     'oracle success_rate': 0.6725228390723823,
+#     'spl': 0.5069144109722511,
+#     'success_rate': 0.5628952916373858}
+# evaluating on val_unseen
+# {   'length': 33.832629010658636,
+#     'oracle success_rate': 0.3606929849474581,
+#     'spl': 0.10599018772173793,
+#     'success_rate': 0.16074978699233172}
+# k=8:evaluating on val_seen
+# {   'length': 15.57509522715788,
+#     'oracle success_rate': 0.6725228390723823,
+#     'spl': 0.5073131464547582,
+#     'success_rate': 0.5643007730147576}
+# evaluating on val_unseen
+# {   'length': 33.795592928318996,
+#     'oracle success_rate': 0.3606929849474581,
+#     'spl': 0.10544787284863699,
+#     'success_rate': 0.15677364385117865}
+
+# k=15:gamma 0.21 ep_len None
+# evaluating on val_seen
+# {   'length': 15.568272094396757,
+#     'oracle success_rate': 0.6725228390723823,
+#     'spl': 0.5073131464547582,
+#     'success_rate': 0.5643007730147576}
+# evaluating on val_unseen
+# {   'length': 33.78893744592748,
+#     'oracle success_rate': 0.3606929849474581,
+#     'spl': 0.10544787284863699,
+#     'success_rate': 0.15677364385117865}
+# follower_pm_sample2step_imagenet_mean_pooled_1heads_train_iter_9300val_seen_sr_0.547_val_unseen_sr_0.138_
+# k=3:evaluating on val_seen
+# {   'length': 12.444839176314005,
+#     'oracle success_rate': 0.617709065354884,
+#     'spl': 0.5288055735801873,
+#     'success_rate': 0.5748418833450457}
+# evaluating on val_unseen
+# {   'length': 30.080196892075076,
+#     'oracle success_rate': 0.3206475433115592,
+#     'spl': 0.10622153711714619,
+#     'success_rate': 0.17381425731326328}
+
+# k=4:evaluating on val_seen
+# {   'length': 12.41846088921409,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.224996761301988,
+#     'oracle success_rate': 0.3203635330871911,
+#     'spl': 0.10684899617535201,
+#     'success_rate': 0.17750639023004827}
+# k=5:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.400171788703478,
+#     'oracle success_rate': 0.3223516046577677,
+#     'spl': 0.10784700069844134,
+#     'success_rate': 0.1823345640443056}
+# k=6:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.502547782620102,
+#     'oracle success_rate': 0.32291962510650385,
+#     'spl': 0.10816138601166486,
+#     'success_rate': 0.1848906560636183}
+# k=7:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.54297248567364,
+#     'oracle success_rate': 0.32263561488213577,
+#     'spl': 0.10815982719276909,
+#     'success_rate': 0.1848906560636183}
+# k=9:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.569780022013212,
+#     'oracle success_rate': 0.32263561488213577,
+#     'spl': 0.10815982719276909,
+#     'success_rate': 0.1848906560636183}
+# k=16:evaluating on val_seen
+# {   'length': 12.417378515816292,
+#     'oracle success_rate': 0.6170063246661982,
+#     'spl': 0.5281297620923588,
+#     'success_rate': 0.5720309205903021}
+# evaluating on val_unseen
+# {   'length': 30.58547315089459,
+#     'oracle success_rate': 0.32263561488213577,
+#     'spl': 0.10815982719276909,
+#     'success_rate': 0.1848906560636183}
+# k=5,--max_episode_len 20:evaluating on val_unseen
+# {   'length': 25.38451024973527,
+#     'oracle success_rate': 0.3118432263561488,
+#     'spl': 0.10872912254605799,
+#     'success_rate': 0.18631070718545867}
+# k=6,--max_episode_len 30:\
+#     {   'length': 28.464271020255453,
+#     'oracle success_rate': 0.31951150241408693,
+#     'spl': 0.10828476644242022,
+#     'success_rate': 0.18545867651235445}
+# k=5:--max_episode_len 30:
+# {   'length': 28.36654789520468,
+#     'oracle success_rate': 0.31951150241408693,
+#     'spl': 0.10798082484334202,
+#     'success_rate': 0.18318659471740983}
+# use room: 0.5 ground truth
+# {   'length': 35.93812550573009,
+#     'oracle success_rate': 0.36182902584493043,
+#     'spl': 0.10270968049109938,
+#     'success_rate': 0.15904572564612326}
+# use room: ground truth:
+# evaluating on val_seen
+# {   'length': 22.0807303836109,
+#     'oracle success_rate': 0.5052705551651441,
+#     'spl': 0.31296720763921276,
+#     'success_rate': 0.36191145467322555}
+# evaluating on val_unseen
+# {   'length': 35.52369319966353,
+#     'oracle success_rate': 0.25475717125816527,
+#     'spl': 0.07207716596897355,
+#     'success_rate': 0.10593581368929282}
+
+
+
+
