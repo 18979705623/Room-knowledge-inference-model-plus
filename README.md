@@ -12,7 +12,7 @@ Environment Installation
 <br>
 
 ```
-git clone https://github.com/alloldman/CKR.git $CKR-root
+git clone https://github.com/18979705623/Room-knowledge-inference-model-plus.git
 ```
 <br>
 &nbsp;&nbsp;&nbsp; 2. Install python>=3.6, pytorch==1.7.1
