@@ -1,0 +1,1 @@
+followersample2step_imagenet_mean_pooled_1heads_train_iter_6400val_seen_sr_0.546_val_unseen_sr_0.247__dec filter=lfs diff=lfs merge=lfs -text
