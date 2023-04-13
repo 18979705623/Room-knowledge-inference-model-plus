@@ -15,7 +15,7 @@ Environment Installation
 git clone https://github.com/alloldman/CKR.git $CKR-root
 ```
 <br>
-&nbsp;&nbsp; 2. Install python>=3.6, pytorch==1.7.1
+&nbsp;&nbsp;&nbsp; 2. Install python>=3.6, pytorch==1.7.1
 <br>
 <br>
 
@@ -26,7 +26,7 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 <br>
- &nbsp;&nbsp;3. Install the requirements.
+ &nbsp;&nbsp;&nbsp;3. Install the requirements.
 <br>
 <br>
 
@@ -42,8 +42,8 @@ Dataset Preparation
 1. Download the Intermediate data from [here](https://drive.google.com/drive/folders/1lU6k8DNXThdWXOafHoXC-3UjwCArT84h?usp=sharing "点击跳转"). data.zip, KB/cache.zip, img_features.zip, experiments/best-ckpt.zip should be unziped. And the [KB/data](https://drive.google.com/file/d/1B4IWXISA_D7avHoj6tHsfMtu5kuIqpt6/view "点击跳转") should be download and be unziped under the KB folder which contains external knowledge bases.
 
 <br>
-2. Put these unziped files as the order below:
-<br>
+&nbsp;&nbsp;&nbsp;2. Put these unziped files as the order below:
+<br><br>
 
 > Room-knowledge-inference-model-plus
 >> img_features
@@ -99,8 +99,7 @@ Training and Test
     bash run.sh train 0
 ```
 ## Test
-1. Evalution by our rewritten script and select the best checkpoint. An example evalution on REVERIE dataset as follow. You can change the path to evalution your own checkpoint:
-<br>
+1. Evalution by our rewritten script and select the best checkpoint. An example evalution on [REVERIE](https://github.com/YuankaiQi/REVERIE "点击跳转") dataset as follow. You can change the path to evalution your own checkpoint:
 <br>
 
 ```
